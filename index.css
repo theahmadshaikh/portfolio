@@ -650,8 +650,12 @@ img.man-icons {
 }
 
 .project-btns {
-    position: relative;
-    bottom: 0%;
+    /* position: relative;
+    bottom: 0%; */
+    /* border: 1px solid red; */
+display: flex;
+justify-content: center;
+gap: 1rem;
 }
 
 .project-github {
