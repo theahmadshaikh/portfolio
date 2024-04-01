@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Ahmad's PortFolio </title>
+  <link rel="shortcut icon" href="./image/DSC_0181-modified.png" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <!-- <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+</head>
+
+<body>
+
+  <!-- Navbar  Section Start -->
+
+  <header>
+    <a href="/" class="logo">&lt;Ahmad Shaikh&#47;&gt;</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar" id="nav-menu">
+      <li><a class="nav-link home" href="#home">Home</a></li>
+      <li><a class="nav-link about" href="#about">About Me</a></li>
+      <li><a class="nav-link skills" href="#skills">Skills</a></li>
+      <li><a class="nav-link projects" href="#projects">Projects</a></li>
+      <li><a class="nav-link contact" href="#contact">Contact</a></li>
+      <li>
+        <a class="nav-link resume" download id="resume-button-1"
+          href="https://drive.google.com/file/d/1so7tRJoECYa6ko4BiaKF6taMFsakrReT/view?usp=sharing&export=download" rel="noreferrer"
+          target="_blank"> <i class="uil uil-message nav__icon"></i> Resume
+        </a>
+      </li>
+    </ul>
+  </header>
+
+
+  <!-- Navbar Section End -->
+
+  <!-- Home Section Start -->
+
+  <section id="home">
+        
+    <div class="home-text">
+      <span></span>
+      <h1 id="user-detail-name"></h1>
+      <h2></h2>
+      <br />
+      <a id="resume-link-2" href="./AhmadShaikh-resume.pdf" target="_blank"
+        download="Ahmad-Shaikh-Resume"> <button class="resume-button" id="resume-button-2"
+          onclick="window.open('https://drive.google.com/file/d/1so7tRJoECYa6ko4BiaKF6taMFsakrReT/view?usp=sharing')">Resume</button>
+      </a>
+    </div>
+    <div class="home-img1">
+      <img src="./image/ahmad_shaikh.JPG" alt="ahmad_shaikh">
+    </div>
+
+  </section>
+
+  <!-- Home Section End -->
+
+
+  <!-- About Section Start -->
+
+  <section class="about section" id="about">
+    <div class="heading">
+      <h2>About Me</h2>
+    </div>
+
+    <div class="about-container">
+      <div class="about-text" id="user-detail-intro">
+        <p> A skilled full-stack web developer proficient in HTML, CSS, JavaScript, Express.js, and Node.js. Completed a
+          comprehensive 1000+ hour web development and Generative AI/Prompt Engineering course at Prepleaf By Masai School
+          with hands-on experience in individual and collaborative projects. Seeking an opportunity to apply the skills
+          and knowledge while continuing to learn and grow in this dynamic field.
+        </p>
+        <div class="information">
+          <div class="info-box">
+            <i class='bx bxs-user'></i>
+            <span> </span>
+            <h3>Ahmad Shaikh</h3>
+          </div>
+
+          <div class="info-box">
+            <i class='bx bxs-phone'></i>
+            <span id="contact-phone">+91-8421087726</span>
+          </div>
+
+          <div class="info-box">
+            <i class='bx bxs-envelope'></i>
+            <span id="contact-email"><a href="mailto:ahmadshaikh2026@gmail.com">ahmadshaikh2026@gmail.com</a>
+            </span>
+          </div>
+
+          <div class="info-box">
+            <a href="https://www.linkedin.com/in/ahmad-shaikh-331a3521b/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <span id="contact-email"><a
+                href="https://www.linkedin.com/in/ahmad-shaikh-331a3521b/" target="_blank">Ahmad Shaikh</a></span>
+          </div>
+
+          <div class="info-box">
+            <a href="https://github.com/theahmadshaikh" target="_blank"><i class='bx bxl-github'></i></a>
+            <span id="contact-email"><a href="https://github.com/theahmadshaikh" target="_blank">theahmadshaikh</a></span>
+          </div>
+          <div class="info-box">
+          <a class="nav-link resume" download id="resume-button"
+            href="https://drive.google.com/uc?id=1CgFFvCcfWN2F-zGDEOfbiudoK5e19Y-Q&export=download" rel="noreferrer"
+            target="_blank"> <i class="uil uil-message nav__icon"></i> <button class="resume-button">Resume</button>
+          </a>
+        </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- About Section End -->
+
+  
+  <!--------------------- Skills Section --------------------->
+  <section class="skills section" id="skills">
+    <div class="heading">
+      <h2>Technical Skills</h2>
+    </div>
+    <br>
+
+    <div class="skills-container bd-grid">
+      <!-- Languages -->
+      <div>
+        <h2 class="skills-subtitle">Languages</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/OIP.I5XOh9o_kbTNsXnsIc53aAHaHa?w=190&h=190&c=7&r=0&o=5&pid=1.7" />
+            <span class="skills-card-name">JavaScript</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="./image/python.png" />
+              
+          
+            <span class="skills-card-name">Python</span>
+          </div>
+          <progress class="progress" value="70" max="100"></progress>
+
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="./image/c-language-logo.png" />
+              
+          
+            <span class="skills-card-name">C++</span>
+
+          </div>
+          <progress class="progress" value="70" max="100"></progress>
+
+        </div>
+      </div>
+
+      <!-- Frontend -->
+      <div>
+        <h2 class="skills-subtitle">Front-End</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/OIP.FN170sbF2Xwk3JZ5OEPxAwHaHs?w=190&h=197&c=7&r=0&o=5&pid=1.7" />
+            <span class="skills-card-name">HTML5</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/OIP.NccvSu6Gut1HXGwUTBKYKgHaH3?w=167&h=180&c=7&r=0&o=5&pid=1.7" />
+            <span class="skills-card-name">CSS3</span>
+          </div>
+          <progress class="progress" value="70" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/OIP.I5XOh9o_kbTNsXnsIc53aAHaHa?w=190&h=190&c=7&r=0&o=5&pid=1.7" />
+            <span class="skills-card-name">JavaScript</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/OIP.K-4RqDC6zFrpAG31ayDDOgHaHa?w=171&h=180&c=7&r=0&o=5&pid=1.7" />
+            <span class="skills-card-name">React.js</span>
+          </div>
+          <progress class="progress" value="80" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://avatars.githubusercontent.com/u/54212428?s=48&v=4" />
+            <span class="skills-card-name">Chakra UI</span>
+          </div>
+          <progress class="progress" value="60" max="100"></progress>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div>
+        <h2 class="skills-subtitle">Back-End</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon" src="/image/nodo.webp" />
+            <span class="skills-card-name">Node.js</span>
+          </div>
+          <progress class="progress" value="40" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon" src="/image/express.png" />
+            <span class="skills-card-name">Express.js</span>
+          </div>
+          <progress class="progress" value="40" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon" src="/image/datastructure.png" />
+            <span class="skills-card-name">Data Structures & Algorithms</span>
+          </div>
+          <progress class="progress" value="60" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://i1.wp.com/artificialintelligencestechnology.com/wp-content/uploads/2020/03/Logo.png?fit=4167%2C4167&ssl=1" />
+            <span class="skills-card-name">Generative AI</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+        </div>
+      </div>
+
+      <!-- Databases -->
+      <div>
+        <h2 class="skills-subtitle">Databases</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/OIP.iJDKjEJBWEErGdYeo5zsfAHaHa?pid=ImgDet&w=205&h=205&c=7" />
+            <span class="skills-card-name">MongoDB</span>
+          </div>
+          <progress class="progress" value="50" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon" src="/image/sql.png" alt="" />
+            <span class="skills-card-name">SQL </span>
+          </div>
+          <progress class="progress" value="85" max="100"></progress>
+        </div>
+      </div>
+
+      <!-- General Tools -->
+      <div>
+        <h2 class="skills-subtitle">General Tools</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/OIP.ckeUFk-yid0vfWnd56w7wAHaHa?w=185&h=185&c=7&r=0&o=5&pid=1.7" />
+            <span class="skills-card-name">Git, GitHub</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" />
+            <span class="skills-card-name">VS Code</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-1.webcatalog.io/catalog/replit/replit-icon-filled.png" />
+            <span class="skills-card-name">Replit</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/OIP.MeHy0e0_nwQ9NMwBCGXTxgHaHa?w=197&h=197&c=7&r=0&o=5&pid=1.7" />
+            <span class="skills-card-name">CodePen & CodeSandbox</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+        </div>
+
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/OIP.hsFAu-BJBv7dM-FYsp7p6gHaHa?pid=ImgDet&w=800&h=800&rs=1" />
+            <span class="skills-card-name">Prompt Engineering</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+        </div>
+      </div>
+
+      <!-- Deployment Tools -->
+      <div>
+        <h2 class="skills-subtitle">Deployment Tools</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://static-00.iconduck.com/assets.00/netlify-icon-512x512-p4tqk3ec.png" />
+            <span class="skills-card-name">Netlify</span>
+          </div>
+          <progress class="progress" value="90" max="100"></progress>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn.jsdelivr.net/gh/wuzhiguang1/bolgfile@1.8/tool/static/picture/hfe6251603ed446848e99364bafeff3d7n.png" />
+            <span class="skills-card-name">Vercel</span>
+          </div>
+          <progress class="progress" value="80" max="100"></progress>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------------- Skills Section End --------------------->
+
+  <!--------------------- Project Section --------------------->
+  <section class="projects section" id="projects">
+    <div class="heading">
+      <h2>Projects</h2>
+    </div>
+    <br>
+    <div class="project-container">
+
+      
+      <div class="project-img project-card">
+       
+        <img id="project_TypeBattle" src="./image/pharmeasy.png" style="width:100%; height: auto; max-height: 595px;" alt=""
+          onclick="window.open('https://pharmeasyclone2024.netlify.app/')" />
+          <p class="project-title">Pharmeasy Replica</p>
+        <div class="project-subtitle project-description" >
+          This is a clone of PharmEasy, India's highly trusted online pharmacy and medical website. Operating as an e-commerce platform, it provides a wide range of pharmaceutical and healthcare products for individuals to purchase, including medicines and various healthcare-related equipment conveniently.
+          <br />
+          <br />
+          <b>Team Project:</b> Completed in 5 days
+          <div class="project-tech-stack">
+            <br />
+            <b>Tech Stack:</b> HTML | CSS | JavaScript 
+          </div>
+        </div>
+        <div class="project-btns">
+          <button class="project-github">
+            <a href="https://github.com/theahmadshaikh/pharmeasy" target="_blank"
+              class="small-btn button project-github-link">
+              Code&nbsp;&nbsp;<i class="bx bxl-github"></i>
+            </a>
+          </button>
+          <button class="project-live">
+            <a href="https://pharmeasyclone2024.netlify.app/" target="_blank"
+              class="small-btn button project-deployed-link">
+              Live&nbsp;&nbsp;<i class="bx bxl-netlify"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+
+   
+        <div class="project-img project-card">
+        <img id="project_PigGame" src="/image/wolverine.png" alt=""
+          onclick="window.open('https://wolverineresume.netlify.app/  ')" />
+        <p class="project-title">Wolverine Resume: A Stylish Personal Resume Website</p>
+        <div class="project-subtitle project-description">
+          Wolverine Resume is a sleek and responsive personal resume website. This project showcases a clean design, intuitive user experience, and adaptability across various devices, emphasizing my skills in front-end web development.
+          <br />
+          <br />
+          <b>Solo project:</b> Completed in one day
+          <div class="project-tech-stack">
+            <br />
+            <b>Tech Stack:</b> HTML | CSS
+          </div>
+        </div>
+        <div class="project-btns">
+          <button class="project-github">
+            <a href="https://wolverineresume.netlify.app/" target="_blank"
+              class="small-btn button project-github-link">
+              Code&nbsp;&nbsp;<i class="bx bxl-github"></i>
+            </a>
+          </button>
+          <button class="project-live">
+            <a href="https://wolverineresume.netlify.app/" target="_blank"
+              class="small-btn button project-deployed-link">
+              Live&nbsp;&nbsp;<i class="bx bxl-netlify"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------- Project Section End --------------------->
+
+  <!-- Github Stats Section Start -->
+
+  <section class="react-activity-calendar">
+    <div class="heading">
+      <h2>GitHub Statistics</h2>
+    </div>
+    <br>
+    <div class="react-activity-calendar" style="margin-bottom: 1rem;">
+      <!-- Loading the data just for you. -->
+      <img src="https://ghchart.rshah.org/theahmadshaikh" alt="react-activity-calendar" style="width: 100%;"/>
+    </div>
+    <br>
+    <div id="git-stat">
+      <div>
+        <img id="github-streak-stats" style="max-height: 250px; height: auto;" 
+          src="https://github-readme-streak-stats.herokuapp.com/?user=theahmadshaikh&theme=dark&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+          alt="streak-stat" />
+        <br>
+        <img id="github-stats-card" style="max-height: 250px; height: auto;"
+          src="https://github-readme-stats.vercel.app/api?username=theahmadshaikh&show_icons=true&theme=dark"
+          alt="stat-card" />
+      </div>
+      <div>
+        <img id="github-top-langs" style="max-height: 400px; height: auto;"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=theahmadshaikh&theme=dark"
+          alt="top_languages" />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Github Stats Section End -->
+
+
+  <!-- Contact Section Start -->
+
+  <section id="contact">
+
+    <div class="footer" class="contact">
+      <div>
+      <h2>Contact Me</h2>
+    </div>
+      <div class="footer-social">
+        <div>
+          <a id="contact-github" href="https://github.com/theahmadshaikh" target="_blank"><i class='bx bxl-github'></i></a>
+          <h5><a id="contact-github" href="https://github.com/theahmadshaikh" target="_blank">theahmadshaikh</a></h5>
+        </div>
+        <div>
+          <a id="contact-linkedin" href="https://www.linkedin.com/in/ahmad-shaikh-331a3521b/" target="_blank"><i
+              class='bx bxl-linkedin'></i></a>
+          <h5><a id="contact-linkedin" href="https://www.linkedin.com/in/ahmad-shaikh-331a3521b/"
+              target="_blank">Ahmad Shaikh</a></h5>
+        </div>
+        <div>
+          <a id="contact-linkedin" href="mailto:ahmadshaikh2026@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+          <h5><a id="contact-linkedin" href="mailto:ahmadshaikh2026@gmail.com">ahmadshaikh2026@gmail.com</a></h5>
+        </div>
+        <div>
+          <a id="contact-linkedin" href="tel:+918421087726" target="_blank"><i class='bx bx-phone-call'></i></a>
+          <h5><a id="contact-linkedin" href="tel:+918421087726" target="_blank">+91-8421087726</a></h5>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact Section End -->
+
+  <div class="footer-bottom">
+    <p> Made with ❤️ By Ahmad Shaikh</p>
+  </div>
+
+  <!-- JavaScript -->
+  <!-- ScrollMagic CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+<!-- GSAP CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
+
+
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script>
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "theahmadshaikh", { responsive: true });
+</script>
